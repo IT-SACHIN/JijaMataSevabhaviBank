@@ -9,4 +9,7 @@ public class Test {
 		System.out.println("Todays Date : "+u.getSysDate());
 	}
 
+	public void m1() {
+		System.out.println("System Date :"+new Utility().getSysDate());
+	}
 }
