@@ -8,4 +8,10 @@ public class Test {
 		Utility u = new Utility();
 		System.out.println("Todays Date : "+u.getSysDate());
 	}
+	
+	public void m1()
+	{
+		System.out.println("This utility method");
+		System.out.println("Date :"+new Utility().getSysDate());
+	}
 }
